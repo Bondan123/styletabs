@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  background: #5B264E;
+  font-family: "Open Sans", "Arial";
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+a:hover{
+  color: #B7977B;
+}
+main {
+  background: #FFF;
+  width: 700px;
+  margin: 50px auto;
+  padding: 10px 30px 80px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+p {
+  font-size: 13px;
+}
+
+/* Important code */
+input, section {
+  clear: both;
+  padding-top: 10px;
+  display: none;
+}
+label {
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  float: left;
+  padding: 10px 5px;
+  border-top: 2px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid #DDD;
+}
+label:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#tab1:checked ~ #content1, #tab2:checked ~ #content2, #tab3:checked ~ #content3, #tab4:checked ~ #content4, #tab5:checked ~ #content5,
+#tab6:checked ~ #content6, #tab7:checked ~ #content7, #tab8:checked ~ #content8, #tab9:checked ~ #content9,
+#tab10:checked ~ #content10, #tab11:checked ~ #content11, #tab12:checked ~ #content12, #tab13:checked ~ #content13, 
+#tab14:checked ~ #content14, #tab15:checked ~ #content15, #tab16:checked ~ #content16, #tab17:checked ~ #content17,
+#tab18:checked ~ #content18, #tab19:checked ~ #content19, #tab20:checked ~ #content20, #tab21:checked ~ #content21,
+#tab22:checked ~ #content22, #tab23:checked ~ #content23, #tab24:checked ~ #content24, #tab25:checked ~ #content25 {
+  display: block;
+}
+input:checked + label {
+  border-top-color: #B7977B;
+  border-right-color: #DDD;
+  border-left-color: #DDD;
+  border-bottom-color: transparent;
+  text-decoration: none;
+}
