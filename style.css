@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 body {
-  background: #5B264E;
+  background: rgba(0,0,0,0.4);
   font-family: "Open Sans", "Arial";
 }
 a{
